@@ -1,0 +1,16 @@
+- Password: cisco
+  Username: admin
+  device_name: cisco3
+  host_name: cisco3.lasthop.io
+- Password: cisco
+  Username: admin
+  device_name: cisco4
+  host_name: cisco4.lasthop.io
+- Password: cisco
+  Username: admin
+  device_name: arista1
+  host_name: arista1.lasthop.io
+- Password: cisco
+  Username: admin
+  device_name: arista2
+  host_name: arista2.lasthop.io
