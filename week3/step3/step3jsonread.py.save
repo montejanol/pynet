@@ -1,0 +1,34 @@
+import json
+from pprint import pprint
+
+filename = input ("Input filename: ")
+with open(filename) as f:
+	data = json.load(f)
+
+ipv4_list = []
+ipv6_list = []
+
+
+for intf, ipaddr_dict in data.items():
+	for ipaddr4_or_ipaddr6, addr_info in ipaddr_dict.items():
+		for ip_addr, prefix_dict in addr_info.items():
+			prefix_length = prefix_dict["Prefix Length"]
+			if ipaddr4_or_ipaddr6 == "ipv4":
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+pprint(data)
+
+
+
