@@ -23,12 +23,7 @@ output = net_connect.send_command('ping 8.8.8.8')
 
 
 
-#cfg = 'ip name-server 1.1.1.1'
-#cfg2 = 'ip name-server 2.2.2.2'
-#cfg3 = 'ip domain lookup'
-#output = net_connect.send_config_set(cfg)
-#output += net_connect.send_config_set(cfg2)
-#output += net_connect.send_config_set(cfg3)
+
 print(output)
 
 
